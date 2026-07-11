@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Developer | Modern & Professional</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-slate-100">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 bg-slate-900/80 backdrop-blur-md p-6 flex justify-between items-center border-b border-slate-800">
+        <h1 class="text-xl font-bold text-indigo-400">DevPortfolio</h1>
+        <div class="space-x-6 text-sm">
+            <a href="#about" class="hover:text-indigo-400">About</a>
+            <a href="#skills" class="hover:text-indigo-400">Skills</a>
+            <a href="#projects" class="hover:text-indigo-400">Projects</a>
+            <a href="#contact" class="bg-indigo-600 px-4 py-2 rounded-lg hover:bg-indigo-700">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="h-screen flex items-center justify-center relative px-6">
+        <img src="img/hero-bg.jpg" class="absolute inset-0 w-full h-full object-cover opacity-20" alt="Background">
+        <div class="relative z-10 text-center">
+            <img src="img/profile.jpg" class="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-indigo-500 object-cover shadow-2xl">
+            <h2 class="text-5xl font-extrabold mb-4">Halo, Saya <span class="text-indigo-400">Web Developer</span></h2>
+            <p class="text-slate-400 max-w-lg mx-auto mb-8">Membangun solusi digital modern dengan antarmuka yang bersih dan pengalaman pengguna yang luar biasa.</p>
+            <a href="#projects" class="bg-indigo-600 px-8 py-3 rounded-full font-semibold hover:bg-indigo-700 transition">Lihat Karya Saya</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-6">
+        <h3 class="text-3xl font-bold text-center mb-12">Tech Stack</h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto text-center">
+            <div class="p-6 bg-slate-800 rounded-xl hover:border-indigo-500 border border-transparent transition">HTML/CSS</div>
+            <div class="p-6 bg-slate-800 rounded-xl hover:border-indigo-500 border border-transparent transition">JavaScript</div>
+            <div class="p-6 bg-slate-800 rounded-xl hover:border-indigo-500 border border-transparent transition">Tailwind</div>
+            <div class="p-6 bg-slate-800 rounded-xl hover:border-indigo-500 border border-transparent transition">React/Next.js</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-slate-800/50 px-6">
+        <h3 class="text-3xl font-bold text-center mb-12">Projects</h3>
+        <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <div class="bg-slate-900 rounded-lg overflow-hidden border border-slate-700">
+                <img src="img/project-1.jpg" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h4 class="text-xl font-bold mb-2">Aplikasi Dashboard</h4>
+                    <p class="text-slate-400 mb-4">Sistem manajemen data interaktif menggunakan React.</p>
+                    <a href="#" class="text-indigo-400 font-semibold">GitHub Repo →</a>
+                </div>
+            </div>
+            <div class="bg-slate-900 rounded-lg overflow-hidden border border-slate-700">
+                <img src="img/project-2.jpg" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h4 class="text-xl font-bold mb-2">E-Commerce Web</h4>
+                    <p class="text-slate-400 mb-4">Platform toko online responsif dan mobile-first.</p>
+                    <a href="#" class="text-indigo-400 font-semibold">GitHub Repo →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-10 text-center text-slate-500 border-t border-slate-800">
+        <p>&copy; 2026 Developer Portfolio. Dibuat dengan semangat.</p>
+    </footer>
+
+</body>
+</html>
